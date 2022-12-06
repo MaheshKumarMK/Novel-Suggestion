@@ -11,7 +11,7 @@ def error_message_details(error, error_details:sys):
 
     return error_message
 
-class RatingsException(Exception):
+class NovelException(Exception):
     def __init__(self, error_message, error_details):
         """
         :param error_message: error message in string format
